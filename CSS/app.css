@@ -1,0 +1,275 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "Titulo";
+  src: url(../fonts/titulos.otf);
+  font-family: "Texto";
+  src: url(../fonts/Texto.otf);
+}
+.texto, .index-frase, .texto-blanco-fondo-negro-letra-chica, .texto-blanco-fondo-negro {
+  font-family: "Texto";
+  color: #FFFFFF;
+  background-color: #000;
+}
+
+.texto-blanco-fondo-negro {
+  font-family: "Texto";
+  opacity: 0.75;
+  font-size: 35px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.texto-blanco-fondo-negro-letra-chica {
+  font-family: "Texto";
+  opacity: 100;
+  font-size: 25px;
+}
+
+.index-frase {
+  font-family: "Texto";
+  opacity: 0.75;
+  font-size: 35px;
+  margin-left: 55px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.fondo-imagen {
+  background-image: url(../imagenes/04_Bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fondo-negro {
+  background-color: #000;
+}
+
+.img-copa {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  opacity: 100%;
+  margin-left: 24px;
+  width: 90%;
+  height: 90%;
+}
+
+.img-evermet {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  opacity: 100%;
+  width: 450;
+  height: 175;
+  background-color: #000;
+}
+
+.img-carril {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  opacity: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 200px;
+  height: 200px;
+}
+
+.img-carril:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.img-tienda {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  opacity: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 30%;
+  height: 50%;
+}
+
+.img-evermeet-nosotros {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  opacity: 100%;
+  width: 350px;
+  height: 350px;
+}
+
+.boton-black {
+  font-family: "Texto";
+  color: white;
+  background-color: black;
+  font-size: 35px;
+  width: auto;
+  height: auto;
+  opacity: 100;
+  margin-bottom: 40px;
+}
+
+.boton-white {
+  font-family: "Texto";
+  color: black;
+  background-color: white;
+  font-size: 35px;
+  width: auto;
+  height: auto;
+  opacity: 100;
+  margin-bottom: 40px;
+}
+
+.boton-black {
+  font-family: "Texto";
+  color: white;
+  background-color: black;
+  font-size: 35px;
+  width: auto;
+  height: auto;
+  opacity: 100;
+  margin-bottom: 40px;
+}
+
+.boton-white {
+  font-family: "Texto";
+  color: black;
+  background-color: white;
+  font-size: 35px;
+  width: auto;
+  height: auto;
+  opacity: 100;
+  margin-bottom: 40px;
+}
+
+.flexible {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  width: auto;
+  height: auto;
+}
+
+.grid-conteiner-tienda {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-template-rows: auto;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  grid-area: "camiseta";
+  grid-area: "canguro";
+  grid-area: "gorro";
+  grid-area: "tapabocas";
+  grid-area: "footer";
+  grid-template-areas: "camiseta, canguro" "gorro, tapabocas" "footer, footer";
+}
+
+@media (min-width: 768px) {
+  .card-text {
+    white-space: nowrap;
+  }
+}
+@media (max-width: 768px) {
+  .img-evermet {
+    width: 225px;
+    height: 85px;
+  }
+  .img-copa {
+    width: 90%;
+    height: 85%;
+  }
+  .carousel-mobile {
+    margin: 4%;
+  }
+  .grid-conteiner-tienda {
+    display: grid;
+    grid-template-columns: repeat(1, 5fr);
+    grid-template-rows: auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    grid-area: "camiseta";
+    grid-area: "canguro";
+    grid-area: "gorro";
+    grid-area: "tapabocas";
+    grid-area: "footer";
+    grid-template-areas: "camiseta" "canguro" "gorro" "tapabocas" "footer";
+  }
+  .flexible {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    grid-area: "carousel";
+    grid-area: "combo-index";
+    grid-area: "footer";
+    grid-template-areas: "carousel" "combo-index" "footer";
+    margin-left: 20px;
+    margin-right: 5px;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 10px;
+    opacity: 100%;
+  }
+  .fix-content-rooster {
+    align-items: center;
+  }
+}
+@media (min-height: 900px) {
+  .imagenes-carril {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    opacity: 100%;
+  }
+  .img-evermeet-nosotros {
+    width: 450px;
+    height: 450px;
+  }
+}
+header {
+  background-color: #000;
+}
+
+nav {
+  position: sticky;
+  Top: 0px;
+  z-index: 1000;
+}
+nav li a {
+  font-family: "Texto";
+  background-color: black;
+  color: white;
+  font-size: 35px;
+  border: 2cm;
+  text-decoration: underline black;
+}
+
+.lista-horizontal {
+  display: inline;
+  color: white;
+  font-size: 35px;
+  margin: -2px;
+}
+
+footer {
+  background-color: #000;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=app.css.map */

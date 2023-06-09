@@ -1,0 +1,19 @@
+nav{
+    position: sticky;
+    Top: 0px;
+    z-index: 1000;
+    li a{
+        font-family: "Texto";
+        background-color: black;
+        color:white;
+        font-size: 35px;
+        border:2cm;
+        text-decoration: underline black;
+    }
+}
+.lista-horizontal{
+    display:inline;
+    color: white;
+    font-size: 35px;
+    margin: -2px;
+}

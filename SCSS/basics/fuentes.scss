@@ -1,0 +1,42 @@
+@import "./colores.scss";
+
+@font-face {
+    font-family: "Titulo";
+    src: url(../fonts/titulos.otf);
+    font-family: "Texto";
+    src: url(../fonts/Texto.otf)
+}
+
+.texto {
+    font-family: "Texto";
+    color: $color-secundario;
+    background-color: $color-primario;
+}
+
+.texto-blanco-fondo-negro {
+    @extend .texto;
+    font-family: "Texto";
+    opacity: 0.75;
+    font-size: 35px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.texto-blanco-fondo-negro-letra-chica {
+    @extend .texto;
+    font-family: "Texto";
+    opacity: 100;
+    font-size: 25px;
+
+}
+.index-frase{
+    @extend .texto;
+    font-family: "Texto";
+    opacity: 0.75;
+    font-size: 35px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}

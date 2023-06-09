@@ -1,0 +1,11 @@
+@import "./colores.scss";
+
+.fondo-imagen{
+    background-image: url(../imagenes/04_Bg.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.fondo-negro {
+    background-color: $color-primario;
+}

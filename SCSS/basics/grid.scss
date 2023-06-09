@@ -1,0 +1,18 @@
+.grid-conteiner-tienda{
+    display:grid;
+    grid-template-columns: repeat(2,3fr);
+    grid-template-rows: auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    grid-area: "camiseta";
+    grid-area: "canguro";
+    grid-area: "gorro";
+    grid-area: "tapabocas";
+    grid-area: "footer";
+    grid-template-areas:
+    "camiseta, canguro"
+    "gorro, tapabocas"
+    "footer, footer";
+}

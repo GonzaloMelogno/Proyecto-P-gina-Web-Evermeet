@@ -1,0 +1,47 @@
+@import"./colores.scss";
+
+@mixin img {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    opacity: 100%;
+}
+
+.img-copa {
+    @include img;
+    margin-left: 24px;
+    width: 90%;
+    height: 90%;
+}
+
+.img-evermet {
+    @include img;
+    width: 450;
+    height: 175;
+    background-color: $color-primario;
+}
+
+.img-carril {
+    @include img;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.img-carril:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.img-tienda {
+    @include img;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 30%;
+    height: 50%;
+}
+
+.img-evermeet-nosotros {
+    @include img;
+    width: 350px;
+    height: 350px;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "preentrega2-gonzalomelogno",
+  "version": "1.0.0",
+  "description": "Proyecto pagina web para Team Evermeet.\r tuve que agregar el JS que termina en map porque sino no estaba funcionando el Js de bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

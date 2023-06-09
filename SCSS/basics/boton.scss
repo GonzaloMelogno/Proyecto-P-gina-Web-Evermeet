@@ -1,0 +1,27 @@
+$color-primario: black;
+$color-secundario: white;
+
+@each $color in $color-primario,
+$color-secundario {
+    .boton-#{$color-primario} {
+        font-family: "Texto";
+        color: $color-secundario;
+        background-color: $color-primario;
+        font-size: 35px;
+        width: auto;
+        height: auto;
+        opacity: 100;
+        margin-bottom: 40px;
+    }
+
+    .boton-#{$color-secundario} {
+        font-family: "Texto";
+        color: $color-primario;
+        background-color: $color-secundario;
+        font-size: 35px;
+        width: auto;
+        height: auto;
+        opacity: 100;
+        margin-bottom: 40px;
+    }
+}
