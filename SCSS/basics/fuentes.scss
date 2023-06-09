@@ -27,7 +27,9 @@
     @extend .texto;
     font-family: "Texto";
     opacity: 100;
-    font-size: 25px;
+    font-size: 23px;
+    padding: 0%;
+    margin: 0%;
 
 }
 .index-frase{
@@ -39,4 +41,12 @@
     margin-bottom: 10px;
     padding: 10px;
     margin-top: 15px;
+}
+.texto-titulo-tienda {
+    @extend .texto;
+    font-family: "Texto";
+    opacity: 0.75;
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 5px;
 }
