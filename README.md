@@ -1,4 +1,4 @@
-# PreEntrega3-GonzaloMelogno
+Prueba Final Gonzalo Melogno
 Proyecto pagina web para Team Evermeet.
-En esta entrega se agregan animaciones a las imagenes de la galeria, se agrega tambien un mixin y un each en los codigos SCSS de imagenes y botones respectivamente.
-Se agregan buenas practicas y SEO.
+Esta es la página que hice para el team de Esports de un amigo, disfrute y aprendi mucho al hacerla, espero les guste.
+
